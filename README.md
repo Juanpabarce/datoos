@@ -1,10 +1,9 @@
-# Web3.Storage Forum dApp example
+# Web3.Storage dApp example
 
-This repository contains an example of a decentralized application that uses [Web3.Storage](https://web3.storage) and [Ethereum](https://ethereum.org) to provide a simple online forum. 
+This repository contains an example of a decentralized application that uses [Web3.Storage](https://web3.storage) and [Ethereum](https://ethereum.org) to provide a simple online authorization format
 
 All post and comment content is stored on Filecoin and IPFS, while all ids and votes are stored in an Ethereum smart contract.
 
-![An animation showing a user posting a comment and a new post on the decentralized forum app.](./img/w3news.gif)
 
 ## Install / Run
 
