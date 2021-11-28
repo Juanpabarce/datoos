@@ -14,7 +14,7 @@ You'll need a recent version of Node.js and npm version 7 or greater.
 1. Clone this repo:
 
    ```bash
-   git clone https://github.com/web3-storage/example-forum-dapp
+   git clone https://github.com/web3-storage/example-dapp
    ```
 
 2. Install dependencies:
