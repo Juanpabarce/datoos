@@ -90,16 +90,6 @@ The content of the post or comment is stored as a JSON file in IPFS and Filecoin
 
 You can retrieve a comment or post with the `getItem` contract function, passing in the item's id. You then need to fetch the content from IPFS and parse the JSON in order to render the complete item.
 
-### Voting
-
-Anyone can vote on a comment or post by calling either `voteForItem(itemId, voteValue)`  where `voteValue` is `-1` for a downvote, `+1` for an upvote, or `0` to retract a previous vote.
-
-Each account can only vote once for each post or comment - subequent votes replace the previous vote from that account.
-
-You can retrive the vote total for a post or comment with `getItemScore(itemId)`, which returns the sum of all up and downvotes.
-
-To get the "karma" or number of votes an author has recieved for their posts and comments, call `getAuthorKarma(author)`, passing in the author's address.
-
 
 See [`packages/contract`](./packages/contract/README.md) for details about the smart contract.
 See [`packages/webapp`](./packages/webapp/README.md) for details about the user interface.
